@@ -18,7 +18,9 @@ function onclick () {
     alert('Your age can not be negative.')
     return
   }
-  if (age >= 17) {
+  if (age > 150) {
+    alert('Please enter your real age.')
+  } else if (age >= 17) {
     alert('You can watch R rated movies.')
   } else if (age >= 13) {
     alert('You can watch PG-13 rated movies.')
