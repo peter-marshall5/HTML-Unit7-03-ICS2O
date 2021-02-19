@@ -9,6 +9,7 @@ function onclick () {
   const age = parseFloat(input.value)
   if (isNaN(age)) {
     alert('You entered an invalid number.')
+    return
   }
   if (age % 1 > 0) {
     alert('Your age must not contain any decimals.')
